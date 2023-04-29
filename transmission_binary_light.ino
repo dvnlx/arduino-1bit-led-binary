@@ -1,7 +1,7 @@
 #define btnPin 2
 #define ledPin 3
 #define arduinoLED LED_BUILTIN
-
+// change the numbers array to any binary text
 int numbers[] = {0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1};
 int length = sizeof(numbers);
 void setup(){
